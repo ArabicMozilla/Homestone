@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url('https://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('https://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Light-webfont.woff') format('woff'), url('https://mozorg.cdn.mozilla.net/media/fonts/OpenSans-Light-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, main, nav, section, summary, time, mark, audio, video {
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-family: 'Open Sans Light', 'Droid Arabic Naskh', sans-serif;
+}
+.header {
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.4);
+}
+.intro-head {
+  background-color: #C13832;
+  width: 100%;
+  height: 100px;
+}
+.header-menu {
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+#tabzilla:before {
+  background-color: #C13832;
+}
+.quote {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding-top: 15px;
+  width: 100%;
+  font-weight: bold;
+  line-height: 70px;
+}
+.cover {
+  background-image: url(assets/5878749928_2447ff568d_o.jpg);
+  height: 420px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.cover-title {
+  font-family: 'Open Sans Light';
+  font-size: 52px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #FFF;
+  text-shadow: 0px 1px 1px #000;
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+.cover-title img {
+  display: block;
+  margin: 0 auto;
+}
+.cover-sub-title {
+  font-family: 'Open Sans Light';
+  font-size: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #FFF;
+  text-shadow: 0px 1px 1px #000;
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+.dimming-shim {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+.header-action-menu {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  border-top: 1px solid white;
+}
+.action-menu-button {
+  width: 25%;
+  height: 100%;
+  color: white;
+  font-size: 26px;
+  line-height: 68px;
+  text-align: center;
+  cursor: pointer;
+}
+.action-menu-button:hover {
+  text-decoration: underline;
+}
+.button-blue {
+  background-color: #00A6F7;
+}
+.button-green {
+  background-color: #00AF84;
+}
+.button-red {
+  background-color: #E14164;
+}
+.button-purple {
+  background-color: #95368C;
+}
+
+/** Who Are We section */
+
+.whoarewe {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.whoarewe-wrapper {
+  display: flex;
+}
+.videowrapper {
+  width: 560px;
+}
+.textwrapper {
+  font-size: 20px;
+  color: #484848;
+  text-align: center;
+  letter-spacing: -1px;
+  font-weight: 300;
+  padding: 40px;
+}
+.whoarewe h2 {
+  font-size: 30px;
+  color: #484848;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: -1px;
+  font-weight: 300;
+}
+
+/** Blog Posts Section */
+
+.blog-posts {
+  width: 100%;
+  height: 500px;
+  background-color: #F6F4EC;
+}
+.blog-posts .container {
+  position: relative;
+  padding: 50px 0px 30px;
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+}
+.blog-posts h2 {
+  font-size: 40px;
+  color: #484848;
+  text-align: center;
+  margin-bottom: 80px;
+  letter-spacing: -1px;
+  font-weight: 300;
+}
+
+/** Footer section */
+
+.footer {
+  background-color: #565A5C;
+  color: #BBB;
+  padding: 40px 0px;
+}
