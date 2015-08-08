@@ -74,7 +74,6 @@ a:visited {
   display: block;
   margin: 0 auto;
 }
-
 .cover-sub-title {
   font-size: 32px;
   overflow: hidden;
@@ -129,6 +128,33 @@ a:visited {
 }
 .button-purple {
   background-color: #95368C;
+}
+.header-action-detail {}
+.header-action-detail p {
+  margin: 0 40px;
+  margin-top: 0;
+  padding: 40px 0;
+  font-size: 20px;
+  color: white;
+  line-height: 45px;
+}
+
+.action-btn-label{
+	color:#FFF;
+	background:#03845c;
+  width:auto;
+  height:auto;
+  font-size:18px;
+  padding:5px 15px;
+  border: 4px solid #005A3E;
+}
+.action-btn-label:hover{
+  color:#FFF;
+  text-decoration: none;
+}
+.action-btn-label span {
+  font-size: 25px;
+  line-height: 28px;
 }
 
 /** Who Are We section */
