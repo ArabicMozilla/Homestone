@@ -6,6 +6,10 @@
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style/style.css" />
   <link rel="stylesheet" type="text/css" href="style/tabzilla.css" media="screen" />
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
+  </script>
 </head>
 
 <body>
@@ -19,7 +23,7 @@
           <div class="quote">Seeing youth being this much excited to drive something such as a Mozilla community, is priceless.<div class="quote-author">— Rami Khader, Founder</div></div>
 
         -->
-        <div class="quote">Hello, مرحبا, Bienvenue</div>
+        <div class="quote" dir="ltr"><img src="style/assets/mozilla_logo.png" /></div>
       </div>
       <!-- header-menu -->
     </div>
@@ -32,12 +36,39 @@
     </div>
     <!-- cover -->
     <div class="header-action-menu">
-      <div class="action-menu-button button-blue">تحدّث</div>
-      <div class="action-menu-button button-yellow">ترجم</div>
-      <div class="action-menu-button button-red">برمج</div>
-      <div class="action-menu-button button-purple">علّم</div>
+      <div class="action-menu-button button-blue" id="action-speak">تحدّث</div>
+      <div class="action-menu-button button-yellow" id="action-translate">ترجم</div>
+      <div class="action-menu-button button-red" id="action-code">برمج</div>
+      <div class="action-menu-button button-purple" id="action-teach">علّم</div>
     </div>
-    <div class="header-action-detail button-blue">
+    <div class="header-action-detail button-blue" id="speak-section">
+      <p>
+        لديك مهارة التحدث أمام الجماهير؟ تجد متعة في تفسير الأمر للناس؟ يمكنك أن تصبح عضوا في مجتمع موزيلا العربي وتشارك في المؤتمرات والأحداث في المنطقة بدعم من موزيلا وتطلق العنان لقدراتك!
+        <a href="#" class="action-btn-label">
+          إنضم إلى موزيلا
+          <span>&raquo;</span>
+        </a>
+      </p>
+    </div>
+    <div class="header-action-detail button-yellow" id="translate-section">
+      <p>
+        لديك مهارة التحدث أمام الجماهير؟ تجد متعة في تفسير الأمر للناس؟ يمكنك أن تصبح عضوا في مجتمع موزيلا العربي وتشارك في المؤتمرات والأحداث في المنطقة بدعم من موزيلا وتطلق العنان لقدراتك!
+        <a href="#" class="action-btn-label">
+          إنضم إلى موزيلا
+          <span>&raquo;</span>
+        </a>
+      </p>
+    </div>
+    <div class="header-action-detail button-red" id="code-section">
+      <p>
+        لديك مهارة التحدث أمام الجماهير؟ تجد متعة في تفسير الأمر للناس؟ يمكنك أن تصبح عضوا في مجتمع موزيلا العربي وتشارك في المؤتمرات والأحداث في المنطقة بدعم من موزيلا وتطلق العنان لقدراتك!
+        <a href="#" class="action-btn-label">
+          إنضم إلى موزيلا
+          <span>&raquo;</span>
+        </a>
+      </p>
+    </div>
+    <div class="header-action-detail button-purple" id="teach-section">
       <p>
         لديك مهارة التحدث أمام الجماهير؟ تجد متعة في تفسير الأمر للناس؟ يمكنك أن تصبح عضوا في مجتمع موزيلا العربي وتشارك في المؤتمرات والأحداث في المنطقة بدعم من موزيلا وتطلق العنان لقدراتك!
         <a href="#" class="action-btn-label">
@@ -58,7 +89,7 @@
         نص عشوائي بالعربية يحل محل عناوين الدتوينات . نص عشوائي بالعربية يحل محل عناوين الدتوينات . نص عشوائي بالعربية يحل محل عناوين الدتوينات . نص عشوائي بالعربية يحل محل عناوين الدتوينات .
       </div>
       <div class="videowrapper">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-v0xBcK6ZWU" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-v0xBcK6ZWU?html5=1" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </section>
@@ -81,53 +112,8 @@
     </div>
     <!-- container -->
   </section>
-  <section class="footer" id="colophon">
-    <nav class="row">
-      <div class="col col-1">
-        <h1 class="logo"><a href="/en-US/">Mozilla</a></h1>
-        <p id="license">
-          أجزاء من هذا المحتوى © 1998-2013 من قبل المساهمين الأفراد لـ mozilla.org. هذا المحتوى متوفر تحت رخصة
-          <a target="_blank" href="https://www.mozilla.org/foundation/licensing/website-content.html">
-            المشاع الإبداعي.
-          </a>
-        </p>
-      </div>
-      <div class="col col-2">
-        <ul class="links-join">
-          <li><a href="/en-US/contact/spaces/">Contact Us</a></li>
-          <li class="wrap"><a href="/en-US/about/partnerships/">Partner with Us</a></li>
-          <li class="clear"><a href="https://sendto.mozilla.org/page/contribute/givenow-seq?preset=2&amp;source=mozillaorg_footer&amp;ref=EOYFR2014&amp;utm_campaign=EOYFR2014&amp;utm_source=mozilla.org&amp;utm_medium=referral&amp;utm_content=mozillaorg_footer" class="donate">Donate</a></li>
-          <li class="wrap"><a href="/en-US/contribute/friends/">Firefox Friends</a></li>
-          <li class="clear"><a href="https://wiki.mozilla.org/Webdev/GetInvolved/mozilla.org">Contribute to this site</a></li>
-        </ul>
-        <ul class="links-legal">
-          <li><a href="/en-US/privacy/">Privacy</a></li>
-          <li class="wrap"><a href="/en-US/privacy/websites/#cookies">Cookies</a></li>
-          <li class="wrap"><a href="/en-US/about/legal/">Legal</a></li>
-          <li class="clear"><a href="/en-US/about/legal/fraud-report/">Report Trademark Abuse</a></li>
-        </ul>
-      </div>
-      <div class="col col-3">
-        <ul class="links-social">
-          <li>
-            Mozilla:
-            <ul>
-              <li><a href="https://twitter.com/mozilla">Twitter<span> (@mozilla)</span></a></li>
-              <li><a href="https://www.facebook.com/mozilla">Facebook<span> (Mozilla)</span></a></li>
-            </ul>
-          </li>
-          <li>
-            Firefox:
-            <ul>
-              <li><a href="https://twitter.com/firefox">Twitter<span> (@firefox)</span></a></li>
-              <li><a href="https://www.facebook.com/Firefox">Facebook<span> (Firefox)</span></a></li>
-              <li><a href="https://www.youtube.com/firefoxchannel">YouTube<span> (firefoxchannel)</span></a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </section>
+  <section id="footer"></section>
+<script src="js/home.js"></script>
 </body>
 
 </html>
