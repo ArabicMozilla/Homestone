@@ -220,7 +220,6 @@ a:visited {
   margin: 2rem auto;
   display: block;
 }
-
 .mozilla-is-you .title .mozdescription {
   font-size: 1.3rem;
   font-weight: normal;
@@ -353,6 +352,71 @@ a:visited {
   border: 2px solid #E3E1D9;
   border-radius: 10px;
   transition: all 0.2s ease-in-out 0s;
+}
+
+/* download firefox section */
+
+.download-firefox {
+  background-color: #565A5C;
+  padding: 4rem 0;
+}
+.download-firefox .download-container {
+  width: 1000px;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+.download-firefox .download-container .firefox-download-logo {
+  width: 380px;
+}
+.download-firefox .download-container .description {
+  color: white;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  text-align: center;
+  width: 360px;
+}
+.download-firefox .download-container .download-action {
+  vertical-align: middle;
+  margin-top: 1rem;
+  width: 260px;
+  margin-right: 7px;
+  text-align: center;
+}
+.download-firefox .download-container .download-action .download-button {
+  background-color: #689F2A;
+  color: #FFF;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+  font-weight: normal;
+  font-size: 1.7rem;
+  border-radius: 6px;
+  min-width: 8rem;
+  padding: 0rem 4rem;
+  font-family: "Droid Arabic Kufi";
+  display: block;
+  height: 70px;
+  line-height: 70px;
+  transition: all 0.25s linear 0s;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+.download-firefox .download-container .download-action .download-button:hover {
+  background-color: #70AB2D;
+}
+.download-firefox .download-container .download-action .download-other, .download-firefox .download-container .download-action .download-other a {
+  width: 100%;
+  margin-top: .5rem;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/** subscribe section */
+
+.subscribe-mailing-list {
+  padding: 4rem 0;
+  background-color: #2D8BD9;
 }
 
 /** Footer section */
