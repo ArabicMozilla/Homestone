@@ -117,7 +117,7 @@ a:visited {
   background-color: #00AF84;
 }
 .button-yellow {
-  background-color: #FDB12A;
+  background-color: #F3BF33;
 }
 .button-red {
   background-color: #FB114E;
@@ -184,7 +184,7 @@ a:visited {
   font-family: 'Droid Arabic Kufi';
 }
 
-/** */
+/** mozilla is you section */
 
 .mozilla-is-you {
   width: 100%;
@@ -276,7 +276,6 @@ a:visited {
   font-family: 'Droid Arabic Kufi';
 }
 .posts-container {
-  //display: flex;
   margin: 0 auto;
   width: 1260px;
 }
@@ -427,6 +426,51 @@ a:visited {
 .subscribe-mailing-list {
   padding: 4rem 0;
   background-color: #2D8BD9;
+}
+
+.subscribe-mailing-list h3 {
+  color: white;
+  font-family: "Droid Arabic Kufi";
+  font-size: 29px;
+  font-weight: normal;
+  text-align: center;
+}
+.subscribe-mailing-list h4 {
+  color: white;
+  font-family: "Droid Arabic Kufi";
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+}
+.subscribe-container {
+  width: 500px;
+  margin: 2rem auto 0;
+}
+
+.subscribe-container input[type="email"] {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 16px;
+  color: rgb(45,45,45);
+  margin-right: -2rem;
+  display: block;
+}
+
+
+.subscribe-container input[type="button"] {
+  background-color: #E8373E;
+  color: white;
+  padding: .5rem 4rem;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 1rem;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-family: "Droid Arabic Kufi";
+  width: 200px;
+  cursor: pointer;
 }
 
 /** Footer section */
